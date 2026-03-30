@@ -493,15 +493,6 @@ export default function HomePage() {
         <div className="absolute top-0 right-0 left-0 h-24 bg-gradient-to-b from-white to-transparent"></div>
       </section>
 
-      {/* Floating Chatbot Button */}
-      {/* <button
-        onClick={() => setIsChatbotOpen(true)}
-        className="fixed bottom-6 right-6 z-50 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-r from-cyan-500 to-blue-600 shadow-lg hover:scale-110 transition-transform duration-200 focus:outline-none"
-        aria-label="Open Chatbot"
-        style={{ boxShadow: "0 4px 24px rgba(0,0,0,0.18)" }}
-      >
-        <RiRobot2Fill className="h-8 w-8 text-white" />
-      </button> */}
       <button
         className="fixed right-8 bottom-8 z-50 flex cursor-pointer items-center justify-center rounded-full bg-white bg-gradient-to-r from-cyan-500 to-blue-600 px-6 py-2.5 text-base font-medium text-white shadow-md transition-all duration-200 hover:scale-110 hover:bg-gray-100 focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-cyan-500 focus:outline-none"
         onClick={() => setIsChatbotOpen((open) => !open)}
